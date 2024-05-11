@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 First, download the pre-trained law BERT model from [here](https://thunlp-public.oss-cn-hongkong.aliyuncs.com/legal/LegalArgumentPairExtraction/law_bert.zip) and save it to `./pretrained_models/law_bert`.
 
-Second, download the LAE dataset from [here]([TODO](https://thunlp-public.oss-cn-hongkong.aliyuncs.com/legal/LegalArgumentPairExtraction/data.zip)) and save it to `./data/lae`.
+Second, download the LAE dataset from [here](https://thunlp-public.oss-cn-hongkong.aliyuncs.com/legal/LegalArgumentPairExtraction/data.zip) and save it to `./data/lae`.
 
 Then, run the following command to pre-train the model on the LAE dataset:
 
@@ -64,7 +64,7 @@ for file in $(ls output/checkpoint/rank_0/loan_finetune_rank_0-*.ckpt); do
 done
 ```
 
-Note that in `contract_test.yaml` and `loan_test.yaml`, we specify the developmnet dataset for evaluation. You can change it to test dataset for final evaluation. Besides, if you rerun the fine-tuning, you also need to remove previous checkpoints to ensure the evaluation is correct. 
+Note that in `contract_test.yaml` and `loan_test.yaml`, we specify the development dataset for evaluation. You can change it to test dataset for final evaluation. Besides, if you rerun the fine-tuning, you also need to remove previous checkpoints to ensure the evaluation is correct. 
 
 
 ## Citation
