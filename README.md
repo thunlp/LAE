@@ -1,6 +1,6 @@
 # Fine-Grained Legal Argument-Pair Extraction via Coarse-Grained Pre-training (COLING 2024)
 
-The code of our paper "Fine-Grained Legal Argument-Pair Extraction via Coarse-Grained Pre-training".
+The code of our paper "Fine-Grained Legal Argument-Pair Extraction via Coarse-Grained Pre-training". This repo is implemented based on [Mindspore](https://www.mindspore.cn/) and [Mindformers](https://portrait.gitee.com/mindspore/mindformers).
 
 ## Installation
 
@@ -66,6 +66,9 @@ done
 
 Note that in `contract_test.yaml` and `loan_test.yaml`, we specify the development dataset for evaluation. You can change it to test dataset for final evaluation. Besides, if you rerun the fine-tuning, you also need to remove previous checkpoints to ensure the evaluation is correct. 
 
+## Acknowledgement
+
+This work is supported by Huawei [MindSpore](https://www.mindspore.cn/) team.
 
 ## Citation
 ```bibtex
